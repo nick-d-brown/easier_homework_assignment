@@ -1,0 +1,119 @@
+
+body {
+    background: #777;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+header {
+    padding: 30px;
+    margin: 20px;
+    background: #ebebeb;
+    position: static;
+}
+
+nav {
+    padding: 30px;
+    margin: 20px;
+    background: #ebebeb;
+    position: static;
+}
+
+section {
+    background: #ebebeb;
+    margin: 0px 10px 20px 20px; 
+    position: relative;
+    float: left;
+    width: 495px;
+}
+
+#sectionCaption {
+    padding: 20px;
+}
+
+aside {
+    
+    float: left;
+    background: #ebebeb;
+    width: 405px;
+    height: 280px;
+    margin: 0px 20px 20px 10px;
+
+}
+
+article {
+    background: #777;
+    margin: 10px;
+    position: relative;
+    color: #ebebeb;
+}
+
+#exArticleTitle {
+    padding: 10px;
+    color: #ebebeb;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.articleContent {
+    position: static;
+    bottom: 5px;
+    
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+
+.articleHeader {
+    width: 430px;
+    padding: 5px;
+    margin: 10px auto;
+    background: #ebebeb;
+    color: #777;
+    position: relative;
+    bottom: 20px;   
+}
+ 
+.articleParagraph {
+    width: 430px;
+    padding: 5px;
+    margin: 10px auto;
+    background: #ebebeb;
+    color: #777;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    width:875px;
+    padding:25px;
+    margin: 0px auto;
+    background: #ebebeb;
+    position: static;
+}
+
+.contain {
+    width: 960px;
+    padding: 0px;
+    margin: 20px auto 0px auto;
+}
+
+
